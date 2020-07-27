@@ -1,0 +1,5 @@
+const SERVICE_IDENTIFIER = {
+    REMOTE_WEB_SERVICE: Symbol.for('REMOTE_WEB_SERVICE'),
+};
+
+export default SERVICE_IDENTIFIER;

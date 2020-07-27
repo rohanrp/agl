@@ -1,0 +1,25 @@
+tags:
+- name: persons
+  description: persons API
+
+paths:
+# [GET] persons
+  /users:
+    get:
+      tags: 
+      - persons
+      summary: Get All Persons
+      responses:
+        200:
+          description: 'OK'
+        500:
+          description: 'Server Error'
+
+# definitions
+definitions:
+  users:
+    type: object
+
+schemes:
+ - https
+ - http
