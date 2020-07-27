@@ -20,6 +20,8 @@ e.g.
 * http://localhost:3000/person/gender/pets/type/Cat/name - to get Cats owned by each gender
 * http://localhost:3000/person/gender/pets/type/Dog/name - to get Dogs owned by each gender
 * http://localhost:3000/person/gender/pets/name/Garfield/type - to get pet type with name Garfield
+* http://localhost:3000/person/gender/pets - to get pets by gender
+
 
 
 ### Prerequisites
